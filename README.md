@@ -20,3 +20,11 @@ NSArray *countries = [NSArray arrayWithObjects:@"Australia", @"Bahrain", @"Cuba"
 [autocompleteField setSearchData:countries];
 
 [automcompleteField setDelegate:self];
+
+(void)DidSelectObject:(id)object
+
+{
+  
+  NSLog(@"You selected: %@", object); 
+
+}
