@@ -22,9 +22,6 @@ NSArray *countries = [NSArray arrayWithObjects:@"Australia", @"Bahrain", @"Cuba"
 [automcompleteField setDelegate:self];
 
 (void)DidSelectObject:(id)object
-
 {
-  
   NSLog(@"You selected: %@", object); 
-
 }
