@@ -13,15 +13,17 @@ The data can be either an array of strings or an array of dictionaries, to use a
 Set the delegate to access the selected object or determine if the field has been editted
 
 ##Example
+#### `POST` URL-Form-Encoded Request
+
+```objective-c
 SDAutoCompleteField *autocompleteField = [[SDAutoCompleteField alloc] init];
-
 NSArray *countries = [NSArray arrayWithObjects:@"Australia", @"Bahrain", @"Cuba", @"Denmark", nil];
-
 [autocompleteField setSearchData:countries];
-
 [automcompleteField setDelegate:self];
 
-(void)DidSelectObject:(id)object
+-(void)DidSelectObject:(id)object
 {
   NSLog(@"You selected: %@", object); 
 }
+```
+
