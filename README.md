@@ -25,3 +25,6 @@ NSArray *countries = [NSArray arrayWithObjects:@"Australia", @"Bahrain", @"Cuba"
 }
 ```
 
+##Resouces
+SDAutoComplete utilises UIView+position from Tyler Neylon for positioning view objects
+see here for more info https://github.com/tylerneylon/moriarty
