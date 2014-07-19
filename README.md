@@ -14,11 +14,9 @@ Set the delegate to access the selected object or determine if the field has bee
 
 ##Example
 SDAutoCompleteField *autocompleteField = [[SDAutoCompleteField alloc] init];
-NSArray *countries = [NSArray arrayWithObjects:@"Australia", @"Bahrain", @"Cuba", @"Denmark", nil];
-[autocompleteField setSearchData:countries];
-[automcompleteField setDelegate:self];
 
-- (void)DidSelectObject:(id)object
-{
-  // Do with the object as you please
-}
+NSArray *countries = [NSArray arrayWithObjects:@"Australia", @"Bahrain", @"Cuba", @"Denmark", nil];
+
+[autocompleteField setSearchData:countries];
+
+[automcompleteField setDelegate:self];
