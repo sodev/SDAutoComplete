@@ -3,7 +3,7 @@
 //  addItem
 //
 //  Created by Sean O'Connor on 15/04/14.
-//  Copyright (c) 2014 Cheeky Peach Labs. All rights reserved.
+//  Copyright (c) 2014 SODev. All rights reserved.
 //
 
 #import "SDAutoCompleteField.h"
